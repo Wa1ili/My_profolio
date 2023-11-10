@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <style type="text/css">
+    
+    .backimg{
+      background: url(c.webp);
+      width: 100%;
+      height: 3500px;
+    }
+
+    .backEssay{
+      background: url(c3.webp);
+      width: 100%;
+      height: 1320px;
+    }
+
+    .backNote{
+      background: url(notes2.jpeg);
+      width: 100%;
+      height: 350px;
+    }
+
+    .backCert{
+      background: url(award.webp);
+      width: 100%;
+      height:5500px;
+    }
+
+     a:link {
+     color: rgb(0, 0, 0)
+     background-color: transparent;
+     text-decoration: none;
+    }
+
+    body {
+      font-family: "Brush Script MT", cursive;
+      
+    }
+    </style>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" 
+    content="width=device-width, initial-scale=1.0" />
+    <title>MY PROFOLIO</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+
+    <!-- Navbar section -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="#home" id="navbar__logo">MY PROFOLIO :)</a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+
+      <ul class="navbar__menu">
+        <li class="navbar__item">
+          <a href="#home" class="navbar__links" id="home-page">HOME</a>
+        </li>
+
+        <li class="navbar__item">
+          <a href="#projects" class="navbar__links" id="projects-page"
+            >CODINGS</a>
+        </li>
+
+        <li class="navbar__item">
+          <a href="#essays" class="navbar__links" id="essays-page">ESSAYS</a>
+        </li>
+
+        <li class="navbar__item">
+          <a href="#notes" class="navbar__links" id="notes-page"
+            >NOTES</a>
+        </li>
+        <li class="navbar__item">
+          <a href="#cert" class="navbar__links" id="cert-page"
+            >AWARDS</a>
+        </li>
+
+        
+
+      </ul>
+      </div>
+     
+    </nav>
+    
+<!-- HERO SECTION -->
+    <div class="hero" id="home">
+     <div class="hero__container">
+      <h1 class="hero__heading"><span>Welcome to my profolio</span>  </h1>
+      <p class="hero__description">
+        
+        This website is dedicated to my UCAS personal statements and was created based on a YouTube tutorial by Brian Design and various online resources <br>
+
+        The website features two versions of the navbar, one for PC and one for mobile devices.<br>
+
+        My website showcases my works related to computing, mathematics, and science, which demonstrate my independent learning outcomes through the use of the internet, books, and academic papers.<br>
+      
+        This was the toughest and most complicated coding project I've ever done at that time, and I hope you will enjoy it as much as I enjoyed putting it together.<br>
+        There are 4 sections below:<br>
+        1) Coding projects <br>
+        2) Essays/contents that I wrote for various activities <br>
+        3) Books and TEDtalks learning notes <br>
+        4) Competition, work experience, and course completion certificates
+      </p>
+      <br>
+      <br>
+        <button class="main__btn"><a href="#">Back to the top</a></button>
+     </div>
+     
+    </div>
+
+<!-- projects section -->
+    <div class="main" id="projects">
+      <div class= "backimg"> 
+        <imput type="text" style = "font-size:x-large;width:500px;"/>
+      <div class="main__container">
+        <div class = "main__content">
+          
+          <!-- <img class ="main__content"> -->
+       <h1 class = "projects_heading" >All my coding projects</h1> <br>
+       <p class="projects_des">' In my spare time, I like to learn a bit of coding from youtube and Udemy '<br>
+      below are some projects I've done</p><br>
+
+       <p1 class = "projects">1. QUIZ MARKER<br>
+        <video width="700" height="420" loop autoplay muted id="videoId">
+          <source src="quiz_game.mp4" type=video/mp4>
+        </video> <br>
+        This programme is able to 'mark' my anwsers with any combinations of letter case input, and it will provide my score at the end.
+        <br>
+        <br>
+        2. 2D PLATFORMER GAME <br>
+       <video width="700" height="420" loop autoplay muted id="videoId">
+        <source src="Platformer.mp4" type=video/mp4>
+      </video> <br>
+      This is a 2D game with a character walking left and right. She is able to walk with her legs moving and jump with her legs bending. This is made with Visual Studio.
+      <br>
+      <br>
+      3. MOTION TRACKING <br>
+       <video width="700" height="420" loop autoplay muted id="videoId">
+        <source src="Motiontrack.mp4" type=video/mp4>
+      </video> <br>
+      The programme is able to detect our motions and mark up our body structure. The numbers on the top left show the fps of the motion. The output shows the location of the human in the video. This programme can also be made with live webcam motions.
+       <br>
+       <br>
+       4. TRACK PHONE NUMBER LOCATION<br>
+       <video width="700" height="420" loop autoplay muted id="videoId">
+        <source src="Phone.mp4" type=video/mp4>
+      </video> <br>
+       By inputting a phone number, you will be able to know which region or country it belongs to based on the area code. if you input: +44 1234567890, the programme will tell you your number belongs to United Kindom.
+       <br>
+       <br>
+       5. ACRONYM GENERATOR <br>
+       <video width="700" height="420" loop autoplay muted id="videoId">
+        <source src="Acronym.mp4" type=video/mp4>
+      </video> <br>
+      Sometimes we like to text our friends in abbreviations such as 'Lol'. This programme helps you to generate an acronym by taking the first letter of your all words in the sentence.
+      <br>
+      <br>
+       6. WEB SCRAPING WITH CHATGPT <br>
+       <video width="700" height="420" loop autoplay muted id="videoId">
+        <source src="gPT.mp4" type=video/mp4>
+      </video> <br>
+      ChatGPT is well known for its amazing ability to generate codes. I asked ChatGPT to generate a code to scrape information from a static website and made the process into a mini report. Without surprise, it nailed its task perfectly
+      <br>
+      <br>
+
+       <button class="main__btn"><a href="#">Back to the top</a></button>
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+
+      <!-- Essays section -->
+      <div class="main" id="essays">
+      <div class="backEssay">
+        <div class="Essays">
+          <h1 class = "Essays_heading" >All essays written by me</h1> <br>
+        <p1 class="MAPintro">
+          I have completed the Manchester Access Program provided by the University of Manchester. The project is a research-based essay with referencing to the materials assessed. The topic that I picked is  <a href="Discuss the applications and the benefits of Artificial Intelligence (AI) in the energy sector.pdf">'Discuss the applications and the benefits of Artificial Intelligence (AI) in the energy sector'</a>.
+          
+          In this research task, I have learned more about the application of robotics, computer vision, machine learning, and natural language processing in the energy field; how to reference and find reliable resources online; how to write in formal languages, etc.<br>
+          This project is quite challenging for me as it is my first time writing an essay, and have to distinguish enormous information. I have become more discreet when doing independent research since then.</p1><br>
+        <br><br>
+        
+        
+        <p3 class="Structural">
+          This following essay was done alongside with an one-week work placement with Sutcliffe ( a structural and civil engineering firm in Liverpool,UK), about <a href="Nuffield_Placement_Project .pdf">'The Investigation of the design for a building and the environmental effects'</a>.<br> In this project, I've learned the basic structure of a building and the carbon effects of the selection of material for construction. Also, I've gained insight into what it's like to work in an office and in the engineering industry.
+        </p3><br><br>
+        
+        <p4 class="QuantumIntro">
+          The last essay is about a famous physical observation <a href="quantum tunnelling .pdf">'Quantum Tunelling'</a>.<br>
+           In this task, I attempted to explain this abstract idea with simple wordings that everyone could understand and tried to give analogies by other irrelevant theories that demonstrate the visuals of quantum tunelling effect. In contrast to the previous essays, this one requires more rigorous logic and precise details, so information from various online resources must be compared.
+        </p4> <br><br>
+        
+        <p5 class="News">
+           This is a news that I wrote for my college's newsletter<br>
+         <img width="500" height="650"
+            src="news.png" /></p1><br></p5>
+        
+        <br>
+        <button class="essay__btn"><a href="#">Back to the top</a></button>
+      </div>
+    
+      </div>
+
+    </div>
+    <div class="main" id="notes">
+      <div class="backNote">
+        <div class="Note">
+          <h1 class = "Note_heading" >My learning notes</h1> <br>
+          <p class="notesIntro">"The internet has been an exceptional study partner for me ever since my GCSEs"</p> <br> 
+          <a href="calculus.pdf">'Notes for The Calculus Lifesaver- a study guide from Princeton University'</a><br>
+          <a href="ukmog.pdf">'Notes for Maths olympiads- including my strategies on how to solve some problems'</a><br>
+          <a href="immersive maths.pdf">'Notes for Immersive Linear Algebra- a interactive book'</a><br><br>
+          <a href="smc-graphs.pdf">'Notes for Senior maths challenge- my preperation'</a><br><br>
+
+          <button class="notes__btn"><a href="#">Back to the top</a></button>
+</div>
+</div>
+</div>
+
+
+<div class="main" id="cert">
+<div class="backCert">
+<div class="Certi">
+
+
+      <h1 class = "Certi_heading" >Certificates and Awards</h1> <br>
+
+      
+          
+
+           <img class="ukmog">
+          UK maths olympiad for girls <br>
+        <img width="500" height="600"
+           src="ukmog.jpg "/></p1><br>
+
+           Senior Maths Challenge <br>
+           <img width="500" height="600"
+              src="SMC.jpg" /></p1><br>
+
+      <img class="kaggle">
+        Kaggle certificate: Intro to Machine Learning <br>
+        <img width="700" height="420"
+         src="Kaggle certificate_Intro to Machine Learning.png" /></p1><br>
+
+         <img class="coursera">
+        Coursera- Learn Object-oriented programming with Kotlin <br>
+        <img width="700" height="450"
+         src="coursera.png" /></p1><br>
+
+         <img class="AWS">
+        AWS educate: Getting started with cloud storage <br>
+        <img width="700" height="420"
+         src="AWSeducate.png" /></p1><br>
+
+      <img class="Nuffield">
+         Nuffield research placement <br>
+        <img width="500" height="600"
+          src="nuffield_cert.jpg" /></p1><br>
+          
+          Virtual work placement<br>
+      <img width="500" height="600"
+           src="kainos.jpeg" /></p1><br>
+           <img class="SMC">
+
+           <img class="Fujitsu">
+           Virtual work experience <br>
+         <img width="500" height="550"
+            src="fujitsu.jpg" /></p1><br>
+            <img class="Kaino">
+
+           <img class="ChemO">
+          Chemistry olympiad <br>
+        <img width="500" height="600"
+           src="chem_o_cert.jpg" /></p1><br>
+           
+          
+          
+        
+
+      
+
+    <br><br><br>
+    <button class="cert__btn"><a href="#">Back to the top</a></button>
+</div>
+</div>
+</div>
+
+
+    <script src="app.js">
+    </script>
+    
+  </body>
+</html>
